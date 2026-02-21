@@ -85,18 +85,18 @@ open index.html
 
 BloomMama homepage interface for personalized pregnancy care and month-wise guidance.
 
-![Screenshot4]<img width="1901" height="901" alt="Image" src="https://github.com/user-attachments/assets/963cc95f-369e-4593-9bfc-cfc24d8050f6" />
+<img width="1901" height="901" alt="Image" src="https://github.com/user-attachments/assets/963cc95f-369e-4593-9bfc-cfc24d8050f6" />
+Month by month Pregnancy Guide
 
+<img width="1899" height="910" alt="Image" src="https://github.com/user-attachments/assets/bc83763b-29a5-4084-8935-dcef8d7d868a" />
+Pregnancy Symptom Checker 
 
-![Screenshot5]<img width="1899" height="910" alt="Image" src="https://github.com/user-attachments/assets/bc83763b-29a5-4084-8935-dcef8d7d868a" />
+<img width="1902" height="912" alt="Image" src="https://github.com/user-attachments/assets/f90ccf9e-8801-463d-b2b2-c12111497108" />
+Prergnancy Nutrition Guide
 
+<img width="1900" height="893" alt="Image" src="https://github.com/user-attachments/assets/73ffed2c-4558-4310-9afa-aefa16fea9b3" />
 
-![Screenshot6]<img width="1902" height="912" alt="Image" src="https://github.com/user-attachments/assets/f90ccf9e-8801-463d-b2b2-c12111497108" />
-
-
-![Screenshot7]<img width="1900" height="893" alt="Image" src="https://github.com/user-attachments/assets/73ffed2c-4558-4310-9afa-aefa16fea9b3" />
-
-
+Emeergency Contacts & Resources
 
 
 ## Additional Documentation
