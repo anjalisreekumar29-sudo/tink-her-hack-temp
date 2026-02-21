@@ -2,27 +2,28 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# BloomMama 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: 108 Error
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Berry Maria Prince - Lourdes Matha College of Science & Technology
+- Member 2: Anjali Sreekumar -  Lourdes Matha College of Science & Technology
 
 ### Hosted Project Link
-[mention your project hosted link here]
+
 
 ### Project Description
-[2-3 lines about what your project does]
 
+BloomMama is a personalized pregnancy care website that provides month-wise guidance on diet, exercise, posture, safety, and emotional well-being for expectant mothers. By entering their due date, users receive tailored tips, reminders, and support throughout their pregnancy journey. The platform brings reliable information and care into one place to promote a safe and healthy pregnancy experience.
 ### The Problem statement
-[What problem are you solving?]
+Many pregnant women lack access to clear, reliable, and month-wise guidance on diet, exercise, posture, safety, and emotional well-being. Information is often scattered across different sources, leading to confusion and stress. There is a need for a single, personalized platform that provides structured pregnancy care support throughout each stage of pregnancy.
 
 ### The Solution
-[How are you solving it?]
+Our project provides personalized, month-wise care including diet, exercise, posture, and emotional support.
+We also include AI chat assistance and reminders to ensure safe and healthy pregnant journey.
 
 ---
 
@@ -31,25 +32,20 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: JavaScript, HTML, CSS
+- Frameworks used: React.js,
+- Libraries used: OpenAI API
+- Tools used: VS Code, Git
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
 
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Personalized dashboard based on user’s due date showing current pregnancy month and daily tips.
+- Feature 2: Month-wise guidance on diet, exercise, posture, clothing, and safety precautions.
+- Feature 3: Emotional wellness section with affirmations, mood tracking, and relaxation suggestions.
+- Feature 4: AI chatbot assistant to answer pregnancy-related queries and provide quick guidance.
 
 ---
 
@@ -58,24 +54,24 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+# clone project
+git clone https://github.com/
+
+# open folder
+cd nurturenest
+
+# if using basic website
+open index.html
+
+# if using node setup (optional)
+npm install
+
+# if using local server
+npm start
 
 #### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
+`# basic website
+open index.html
 
 ## Project Documentation
 
@@ -83,13 +79,26 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1]<img width="1906" height="931" alt="Image" src="https://github.com/user-attachments/assets/b71bbb52-ffc9-4c85-a4ab-a6221fc3672f" />
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2]<img width="1906" height="931" alt="Image" src="https://github.com/user-attachments/assets/62ffe2f6-1b8b-47b3-9414-895ddeac532f" />
+
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3]<img width="1899" height="902" alt="Image" src="https://github.com/user-attachments/assets/ae56be83-0db9-4642-808b-d71b80e8c539" />
+*Add caption explaining what this shows*
+
+![Screenshot4]<img width="1901" height="901" alt="Image" src="https://github.com/user-attachments/assets/963cc95f-369e-4593-9bfc-cfc24d8050f6" />
+*Add caption explaining what this shows*
+
+![Screenshot5]<img width="1899" height="910" alt="Image" src="https://github.com/user-attachments/assets/bc83763b-29a5-4084-8935-dcef8d7d868a" />
+*Add caption explaining what this shows*
+
+![Screenshot6]<img width="1902" height="912" alt="Image" src="https://github.com/user-attachments/assets/f90ccf9e-8801-463d-b2b2-c12111497108" />
+*Add caption explaining what this shows*
+
+![Screenshot7]<img width="1900" height="893" alt="Image" src="https://github.com/user-attachments/assets/73ffed2c-4558-4310-9afa-aefa16fea9b3" />
 *Add caption explaining what this shows*
 
 #### Diagrams
@@ -106,310 +115,86 @@ List the key features of your project:
 
 ---
 
-### For Hardware:
-
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
 
 ## Additional Documentation
 
 ### For Web Projects with Backend:
 
-#### API Documentation
 
-**Base URL:** `https://api.yourproject.com`
+This project is a web-based frontend application developed for a hackathon prototype.  
+It does not currently use a dedicated backend API. All features such as pregnancy month calculation, guidance display, and tips are handled on the client side.
 
-##### Endpoints
-
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
-
-[Add more endpoints as needed...]
-
----
-
-### For Mobile Apps:
-
-#### App Flow Diagram
-
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
-
-#### Installation Guide
-
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
-
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
-
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
-
----
+The system is designed to support future backend integration for AI chat, user login, and health tracking.
 
 ### For Hardware Projects:
+## Hardware Requirements
 
-#### Bill of Materials (BOM)
+This project is a web-based software application and does not require any hardware components.
 
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
+A device with a web browser (laptop/mobile) and internet connection is sufficient to run the application.
 
-**Total Estimated Cost:** ₹[Amount]
 
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
-
-### For Scripts/CLI Tools:
-
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
 
 #### Demo Output
 
-**Example 1: Basic Processing**
+### Demo Output
 
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
+When the user opens the website and enters their due date, the system displays:
 
-**Command:**
-```bash
-python script.py sample.txt
-```
+- Current pregnancy month  
+- Baby growth information  
+- Recommended foods and foods to avoid  
+- Safe exercises and posture guidance  
+- Emotional wellness tips and reminders  
 
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
-
-**Example 2: Advanced Usage**
-
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
-
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
-
----
+The dashboard updates dynamically based on the user’s due date and provides personalized pregnancy care guidance.
 
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+https://www.loom.com/share/c27d9bccafcc4e6e98b4ead539d6ecc4
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
 
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
 
----
+
 
 ## AI Tools Used (Optional - For Transparency Bonus)
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** Chatgpt,VS Code
 
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
-
+**Purpose:** 
+Used AI tools to generate UI layout ideas, feature planning, content suggestions, and code assistance for building the pregnancy care website.
 **Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
-
-**Percentage of AI-generated code:** [Approximately X%]
+"Create a pregnancy care website with month-wise guidance for mothers"  
+- "Generate UI layout for a maternal health website"  
+- "Provide content for diet, exercise, and safety during pregnancy"  
+- "Help structure README and documentation"
+**Percentage of AI-generated code:** 20
 
 **Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
+Project idea and problem identification  
+- Feature selection and planning  
+- UI/UX decisions  
+- Integration and testing  
+- Final customization and content editing
 
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
+
 
 ---
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- Berry Maria Prince: Contributed to UI/UX design, frontend development, feature implementation, and testing of the pregnancy care website. Also assisted in content planning and integration.
+- Anjali Sreekumar: Contributed to UI/UX design, frontend development, feature implementation, and testing of the pregnancy care website. Also worked on documentation, research for pregnancy guidance content, and final presentation.
+
 
 ---
 
 ## License
 
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License.
 **Common License Options:**
 - MIT License (Permissive, widely used)
 - Apache 2.0 (Permissive with patent grant)
