@@ -34,7 +34,6 @@ We also include AI chat assistance and reminders to ensure safe and healthy preg
 
 **For Software:**
 - Languages used: JavaScript, HTML, CSS
-- Frameworks used: React.js,
 - Libraries used: OpenAI API
 - Tools used: VS Code, Git
 
@@ -81,12 +80,10 @@ open index.html
 #### Screenshots 
 
 
-![Screenshot2]<img width="1906" height="931" alt="Image" src="https://github.com/user-attachments/assets/62ffe2f6-1b8b-47b3-9414-895ddeac532f" />
 
+<img width="1899" height="902" alt="Image" src="https://github.com/user-attachments/assets/ae56be83-0db9-4642-808b-d71b80e8c539" />
 
-
-![Screenshot3]<img width="1899" height="902" alt="Image" src="https://github.com/user-attachments/assets/ae56be83-0db9-4642-808b-d71b80e8c539" />
-
+BloomMama homepage interface for personalized pregnancy care and month-wise guidance.
 
 ![Screenshot4]<img width="1901" height="901" alt="Image" src="https://github.com/user-attachments/assets/963cc95f-369e-4593-9bfc-cfc24d8050f6" />
 
