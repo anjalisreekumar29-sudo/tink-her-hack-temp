@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BloomMama — Your Pregnancy Care Companion</title>
+  <meta name="description"
+    content="BloomMama delivers personalized, month-wise pregnancy guidance. Expert tips on nutrition, symptoms, baby development & more for every stage of your journey.">
+  <meta property="og:title" content="BloomMama — Your Pregnancy Care Companion">
+  <meta property="og:description" content="Personalized month-wise pregnancy support for expectant mothers.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+</head>
+
+<body>
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-icon">🌸</div>
+    <div class="loader-text">BloomMama</div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose" aria-label="Close menu">✕</button>
+    <a href="#journey">Monthly Guide</a>
+    <a href="#symptoms">Symptom Checker</a>
+    <a href="#nutrition">Nutrition</a>
+    <a href="#emergency">Emergency</a>
+    <a href="#faq">FAQ</a>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">🌸</div>
+        BloomMama
+      </a>
+      <div class="nav-links">
+        <a href="#journey">Monthly Guide</a>
+        <a href="#symptoms">Symptoms</a>
+        <a href="#nutrition">Nutrition</a>
+        <a href="#emergency">Emergency</a>
+        <a href="#faq">FAQ</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        <a href="#cta" class="nav-cta">Get Started</a>
+      </div>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Your Journey to<span>Motherhood, Guided</span></h1>
+        <p>Expert-backed, personalized pregnancy guidance for every month. From first heartbeat to first breath — we're
+          with you at every step.</p>
+        <div class="hero-buttons">
+          <a href="#journey" class="btn-primary">Explore Monthly Guide ➜</a>
+          <a href="#symptoms" class="btn-secondary">Check Symptoms</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="number">9</span>
+            <span class="label">Month Guide</span>
+          </div>
+          <div class="hero-stat">
+            <span class="number">200+</span>
+            <span class="label">Expert Tips</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-circle">🤰🏻</div>
+    </div>
+  </section>
+
+  <!-- Features Bar -->
+  <div class="container">
+    <div class="features-bar reveal">
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon rose">📅</div>
+          <div>
+            <h4>Month-by-Month</h4>
+            <p>Detailed guidance for each stage</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon coral">🩺</div>
+          <div>
+            <h4>Symptom Tracker</h4>
+            <p>Know what's normal & what's not</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon sage">🥗</div>
+          <div>
+            <h4>Nutrition Plans</h4>
+            <p>Eat right for you and baby</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon plum">💬</div>
+          <div>
+            <h4>Expert Advice</h4>
+            <p>Doctor-approved content</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Month-by-Month Journey -->
+  <section class="section" id="journey">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Your Journey</span>
+        <h2>Month-by-Month Pregnancy Guide</h2>
+        <p>Tap on any month to see what's happening with you and your baby, along with tailored tips and advice.</p>
+      </div>
+
+      <div class="timeline-nav reveal" id="timelineNav">
+        <button class="timeline-btn active" data-month="1"><span>Month 1</span></button>
+        <button class="timeline-btn" data-month="2"><span>Month 2</span></button>
+        <button class="timeline-btn" data-month="3"><span>Month 3</span></button>
+        <button class="timeline-btn" data-month="4"><span>Month 4</span></button>
+        <button class="timeline-btn" data-month="5"><span>Month 5</span></button>
+        <button class="timeline-btn" data-month="6"><span>Month 6</span></button>
+        <button class="timeline-btn" data-month="7"><span>Month 7</span></button>
+        <button class="timeline-btn" data-month="8"><span>Month 8</span></button>
+        <button class="timeline-btn" data-month="9"><span>Month 9</span></button>
+      </div>
+
+      <!-- Month 1 -->
+      <div class="timeline-content active reveal" data-month="1">
+        <div class="month-card">
+          <div class="month-visual">
+            <div class="month-emoji">🌱</div>
+            <div class="month-week-range">Weeks 1 – 4</div>
+            <div class="baby-size">Baby size: Poppy seed</div>
+          </div>
+          <div class="month-info">
+            <h3>Month 1 — The Beginning</h3>
+            <p>Congratulations! Your baby has just been conceived. The fertilized egg is implanting in the uterus and
+              beginning to form essential structures.</p>
+            <div class="info-tabs">
+              <button class="info-tab active" data-tab="development">👶 Development</button>
+              <button class="info-tab" data-tab="symptoms">🤒 Symptoms</button>
+              <button class="info-tab" data-tab="tips">💡 Tips</button>
+            </div>
+            <div class="info-panel active" data-tab="development">
+              <ul>
+                <li><span class="icon">🧬</span>The fertilized egg divides rapidly into many cells</li>
+                <li><span class="icon">🫀</span>The neural tube (brain & spinal cord) starts forming</li>
+                <li><span class="icon">🩸</span>The placenta begins developing to nourish your baby</li>
+                <li><span class="icon">💗</span>A primitive heart starts to form by the end of week 4</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="symptoms">
+              <ul>
+                <li><span class="icon">😴</span>Fatigue and increased need for rest</li>
+                <li><span class="icon">🤢</span>Mild nausea or morning sickness may begin</li>
+                <li><span class="icon">🍼</span>Breast tenderness and slight swelling</li>
+                <li><span class="icon">🚿</span>More frequent urination</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="tips">
+              <ul>
+                <li><span class="icon">💊</span>Start taking prenatal vitamins with folic acid immediately</li>
+                <li><span class="icon">🚫</span>Avoid alcohol, smoking, and limit caffeine intake</li>
+                <li><span class="icon">📞</span>Schedule your first prenatal appointment</li>
+                <li><span class="icon">🥦</span>Focus on a balanced diet rich in folate and iron</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 2 -->
+      <div class="timeline-content" data-month="2">
+        <div class="month-card">
+          <div class="month-visual">
+            <div class="month-emoji">🫐</div>
+            <div class="month-week-range">Weeks 5 – 8</div>
+            <div class="baby-size">Baby size: Raspberry</div>
+          </div>
+          <div class="month-info">
+            <h3>Month 2 — Rapid Growth</h3>
+            <p>Your baby is growing rapidly! Tiny buds for arms and legs appear, and facial features start to form. The
+              heart is beating steadily now.</p>
+            <div class="info-tabs">
+              <button class="info-tab active" data-tab="development">👶 Development</button>
+              <button class="info-tab" data-tab="symptoms">🤒 Symptoms</button>
+              <button class="info-tab" data-tab="tips">💡 Tips</button>
+            </div>
+            <div class="info-panel active" data-tab="development">
+              <ul>
+                <li><span class="icon">💗</span>Heart beats about 150-170 times per minute</li>
+                <li><span class="icon">👀</span>Eyes, ears, and nose start to take shape</li>
+                <li><span class="icon">🦴</span>Arm and leg buds are forming</li>
+                <li><span class="icon">🧠</span>Brain develops rapidly forming basic structures</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="symptoms">
+              <ul>
+                <li><span class="icon">🤢</span>Morning sickness may intensify</li>
+                <li><span class="icon">😴</span>Extreme fatigue is common</li>
+                <li><span class="icon">🫁</span>Mood swings due to hormonal changes</li>
+                <li><span class="icon">🍕</span>Food aversions and cravings may begin</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="tips">
+              <ul>
+                <li><span class="icon">💧</span>Stay well hydrated to help with nausea</li>
+                <li><span class="icon">🍪</span>Eat small, frequent meals throughout the day</li>
+                <li><span class="icon">😴</span>Rest whenever you can — listen to your body</li>
+                <li><span class="icon">📝</span>Keep a pregnancy journal to track your journey</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 3 -->
+      <div class="timeline-content" data-month="3">
+        <div class="month-card">
+          <div class="month-visual">
+            <div class="month-emoji">🍋</div>
+            <div class="month-week-range">Weeks 9 – 12</div>
+            <div class="baby-size">Baby size: Lime</div>
+          </div>
+          <div class="month-info">
+            <h3>Month 3 — End of First Trimester</h3>
+            <p>Your baby now has all essential organs formed. Fingers and toes are distinct, and the baby can even make
+              fist-like movements!</p>
+            <div class="info-tabs">
+              <button class="info-tab active" data-tab="development">👶 Development</button>
+              <button class="info-tab" data-tab="symptoms">🤒 Symptoms</button>
+              <button class="info-tab" data-tab="tips">💡 Tips</button>
+            </div>
+            <div class="info-panel active" data-tab="development">
+              <ul>
+                <li><span class="icon">🖐️</span>Fingers and toes fully formed</li>
+                <li><span class="icon">🦷</span>Tooth buds and nail beds developing</li>
+                <li><span class="icon">🏃</span>Baby can make small movements (you can't feel yet)</li>
+                <li><span class="icon">🔬</span>Gender organs start to differentiate</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="symptoms">
+              <ul>
+                <li><span class="icon">😊</span>Morning sickness may start to ease</li>
+                <li><span class="icon">👗</span>Visible baby bump may begin to show</li>
+                <li><span class="icon">💆</span>Headaches may become more common</li>
+                <li><span class="icon">🤤</span>Increased saliva production</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="tips">
+              <ul>
+                <li><span class="icon">🩺</span>Complete first trimester screening tests</li>
+                <li><span class="icon">🗣️</span>Share the news with close family if comfortable</li>
+                <li><span class="icon">🧘</span>Start gentle prenatal yoga or exercise</li>
+                <li><span class="icon">🦷</span>Visit a dentist — pregnancy affects dental health</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 4 -->
+      <div class="timeline-content" data-month="4">
+        <div class="month-card">
+          <div class="month-visual">
+            <div class="month-emoji">🥑</div>
+            <div class="month-week-range">Weeks 13 – 16</div>
+            <div class="baby-size">Baby size: Avocado</div>
+          </div>
+          <div class="month-info">
+            <h3>Month 4 — Hello Second Trimester!</h3>
+            <p>Welcome to the golden trimester! Energy levels improve, and you may start feeling those first magical
+              flutters of baby movement.</p>
+            <div class="info-tabs">
+              <button class="info-tab active" data-tab="development">👶 Development</button>
+              <button class="info-tab" data-tab="symptoms">🤒 Symptoms</button>
+              <button class="info-tab" data-tab="tips">💡 Tips</button>
+            </div>
+            <div class="info-panel active" data-tab="development">
+              <ul>
+                <li><span class="icon">🏠</span>Baby is about 4-5 inches long now</li>
+                <li><span class="icon">👂</span>Hearing is developing — baby can sense sounds</li>
+                <li><span class="icon">🦊</span>Fine hair (lanugo) covers the body</li>
+                <li><span class="icon">💪</span>Muscles and bones are strengthening</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="symptoms">
+              <ul>
+                <li><span class="icon">⚡</span>Energy boost — the "honeymoon phase"</li>
+                <li><span class="icon">🤧</span>Nasal congestion and nosebleeds more common</li>
+                <li><span class="icon">🌡️</span>Increased appetite as nausea subsides</li>
+                <li><span class="icon">🦵</span>Leg cramps may begin, especially at night</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="tips">
+              <ul>
+                <li><span class="icon">🤸</span>Great time to increase gentle exercise</li>
+                <li><span class="icon">🛌</span>Start sleeping on your side (left is best)</li>
+                <li><span class="icon">📷</span>Get an anatomy scan (around week 16-18)</li>
+                <li><span class="icon">🛍️</span>Begin shopping for maternity clothes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 5 -->
+      <div class="timeline-content" data-month="5">
+        <div class="month-card">
+          <div class="month-visual">
+            <div class="month-emoji">🍌</div>
+            <div class="month-week-range">Weeks 17 – 20</div>
+            <div class="baby-size">Baby size: Banana</div>
+          </div>
+          <div class="month-info">
+            <h3>Month 5 — Feeling the Kicks!</h3>
+            <p>This is an exciting milestone — you'll likely feel your baby's movements for the first time! The anatomy
+              scan reveals detailed development.</p>
+            <div class="info-tabs">
+              <button class="info-tab active" data-tab="development">👶 Development</button>
+              <button class="info-tab" data-tab="symptoms">🤒 Symptoms</button>
+              <button class="info-tab" data-tab="tips">💡 Tips</button>
+            </div>
+            <div class="info-panel active" data-tab="development">
+              <ul>
+                <li><span class="icon">🤸</span>Active movements — kicks, rolls, and flips</li>
+                <li><span class="icon">🖐️</span>Unique fingerprints are now formed</li>
+                <li><span class="icon">👁️</span>Eyebrows and eyelids are visible</li>
+                <li><span class="icon">🧠</span>Rapid brain development continues</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="symptoms">
+              <ul>
+                <li><span class="icon">🤰🏻</span>Growing belly — visible baby bump</li>
+                <li><span class="icon">🔥</span>Heartburn and indigestion may begin</li>
+                <li><span class="icon">🦶</span>Slight swelling in feet and ankles</li>
+                <li><span class="icon">😵</span>Occasional dizziness from blood pressure shifts</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="tips">
+              <ul>
+                <li><span class="icon">📋</span>Get the mid-pregnancy anatomy scan (week 20)</li>
+                <li><span class="icon">🍎</span>Increase iron-rich foods to prevent anemia</li>
+                <li><span class="icon">👟</span>Wear comfortable, supportive shoes</li>
+                <li><span class="icon">📖</span>Start reading about childbirth preparation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 6 -->
+      <div class="timeline-content" data-month="6">
+        <div class="month-card">
+          <div class="month-visual">
+            <div class="month-emoji">🥥</div>
+            <div class="month-week-range">Weeks 21 – 24</div>
+            <div class="baby-size">Baby size: Papaya</div>
+          </div>
+          <div class="month-info">
+            <h3>Month 6 — Growing Stronger</h3>
+            <p>Baby's lungs are developing, and they can now respond to sounds! Your belly grows noticeably, and baby's
+              movements are more pronounced.</p>
+            <div class="info-tabs">
+              <button class="info-tab active" data-tab="development">👶 Development</button>
+              <button class="info-tab" data-tab="symptoms">🤒 Symptoms</button>
+              <button class="info-tab" data-tab="tips">💡 Tips</button>
+            </div>
+            <div class="info-panel active" data-tab="development">
+              <ul>
+                <li><span class="icon">🫁</span>Lungs developing — practicing breathing motions</li>
+                <li><span class="icon">👀</span>Eyes can open and close now</li>
+                <li><span class="icon">🎵</span>Baby responds to music and familiar voices</li>
+                <li><span class="icon">💤</span>Regular sleep-wake cycles established</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="symptoms">
+              <ul>
+                <li><span class="icon">🤲</span>Braxton Hicks contractions may begin</li>
+                <li><span class="icon">😫</span>Back pain as center of gravity shifts</li>
+                <li><span class="icon">🦶</span>Swollen feet and hands more noticeable</li>
+                <li><span class="icon">😴</span>Trouble sleeping comfortably</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="tips">
+              <ul>
+                <li><span class="icon">🍼</span>Take a glucose screening test (gestational diabetes)</li>
+                <li><span class="icon">📚</span>Sign up for childbirth and breastfeeding classes</li>
+                <li><span class="icon">🛏️</span>Use a pregnancy pillow for better sleep</li>
+                <li><span class="icon">🎵</span>Play music for your baby — they can hear now!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 7 -->
+      <div class="timeline-content" data-month="7">
+        <div class="month-card">
+          <div class="month-visual">
+            <div class="month-emoji">🍈</div>
+            <div class="month-week-range">Weeks 25 – 28</div>
+            <div class="baby-size">Baby size: Cauliflower</div>
+          </div>
+          <div class="month-info">
+            <h3>Month 7 — Third Trimester Begins</h3>
+            <p>Welcome to the final trimester! Your baby is gaining weight rapidly and the brain is maturing. The
+              countdown to delivery begins!</p>
+            <div class="info-tabs">
+              <button class="info-tab active" data-tab="development">👶 Development</button>
+              <button class="info-tab" data-tab="symptoms">🤒 Symptoms</button>
+              <button class="info-tab" data-tab="tips">💡 Tips</button>
+            </div>
+            <div class="info-panel active" data-tab="development">
+              <ul>
+                <li><span class="icon">⚖️</span>Baby weighs about 2-2.5 lbs now</li>
+                <li><span class="icon">🧠</span>Brain developing rapidly — can dream!</li>
+                <li><span class="icon">👀</span>Eyelids open — baby can see light</li>
+                <li><span class="icon">🫁</span>Lungs maturing but not yet ready for breathing</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="symptoms">
+              <ul>
+                <li><span class="icon">🫁</span>Shortness of breath as uterus pushes diaphragm</li>
+                <li><span class="icon">🤲</span>More frequent Braxton Hicks contractions</li>
+                <li><span class="icon">🚽</span>Frequent urination returns</li>
+                <li><span class="icon">😫</span>Back, hip, and pelvic pain increases</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="tips">
+              <ul>
+                <li><span class="icon">📝</span>Start creating your birth plan</li>
+                <li><span class="icon">🧸</span>Begin setting up the nursery</li>
+                <li><span class="icon">🔢</span>Count kicks daily — aim for 10 in 2 hours</li>
+                <li><span class="icon">🏥</span>Tour the hospital or birth center</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 8 -->
+      <div class="timeline-content" data-month="8">
+        <div class="month-card">
+          <div class="month-visual">
+            <div class="month-emoji">🎃</div>
+            <div class="month-week-range">Weeks 29 – 32</div>
+            <div class="baby-size">Baby size: Butternut squash</div>
+          </div>
+          <div class="month-info">
+            <h3>Month 8 — Almost There!</h3>
+            <p>Baby is gaining about half a pound per week! Most organs are fully developed, and baby is likely getting
+              into head-down position for birth.</p>
+            <div class="info-tabs">
+              <button class="info-tab active" data-tab="development">👶 Development</button>
+              <button class="info-tab" data-tab="symptoms">🤒 Symptoms</button>
+              <button class="info-tab" data-tab="tips">💡 Tips</button>
+            </div>
+            <div class="info-panel active" data-tab="development">
+              <ul>
+                <li><span class="icon">⚖️</span>Baby weighs 4-4.5 lbs and is about 17 inches long</li>
+                <li><span class="icon">🧠</span>Brain connections forming rapidly</li>
+                <li><span class="icon">🦴</span>Bones are hardening, except skull (for birth flexibility)</li>
+                <li><span class="icon">🔄</span>Baby moves into head-down position</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="symptoms">
+              <ul>
+                <li><span class="icon">😫</span>Increasing discomfort and fatigue</li>
+                <li><span class="icon">🫁</span>Difficulty breathing due to pressure on diaphragm</li>
+                <li><span class="icon">🔥</span>Heartburn and acid reflux more intense</li>
+                <li><span class="icon">😴</span>Insomnia and difficulty finding comfortable positions</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="tips">
+              <ul>
+                <li><span class="icon">🧳</span>Pack your hospital bag</li>
+                <li><span class="icon">📝</span>Finalize birth plan and discuss with your doctor</li>
+                <li><span class="icon">🧘</span>Practice breathing and relaxation techniques</li>
+                <li><span class="icon">❄️</span>Freeze meals for after baby arrives</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Month 9 -->
+      <div class="timeline-content" data-month="9">
+        <div class="month-card">
+          <div class="month-visual">
+            <div class="month-emoji">🍉</div>
+            <div class="month-week-range">Weeks 33 – 40</div>
+            <div class="baby-size">Baby size: Watermelon</div>
+          </div>
+          <div class="month-info">
+            <h3>Month 9 — The Big Day Approaches!</h3>
+            <p>Your baby is fully developed and ready to meet you! The lungs are mature, and baby is just putting on
+              those final adorable ounces.</p>
+            <div class="info-tabs">
+              <button class="info-tab active" data-tab="development">👶 Development</button>
+              <button class="info-tab" data-tab="symptoms">🤒 Symptoms</button>
+              <button class="info-tab" data-tab="tips">💡 Tips</button>
+            </div>
+            <div class="info-panel active" data-tab="development">
+              <ul>
+                <li><span class="icon">🎉</span>Baby is fully developed — 6-9 lbs, 19-21 inches</li>
+                <li><span class="icon">🫁</span>Lungs are fully mature and ready to breathe</li>
+                <li><span class="icon">🧠</span>Brain will continue growing after birth</li>
+                <li><span class="icon">🍼</span>Immune system receiving antibodies from mom</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="symptoms">
+              <ul>
+                <li><span class="icon">⬇️</span>"Lightening" — baby drops lower into pelvis</li>
+                <li><span class="icon">🤲</span>Stronger and more regular Braxton Hicks</li>
+                <li><span class="icon">😰</span>Nesting instinct — sudden urge to clean & organize</li>
+                <li><span class="icon">🩸</span>Bloody show or loss of mucus plug (labor sign)</li>
+              </ul>
+            </div>
+            <div class="info-panel" data-tab="tips">
+              <ul>
+                <li><span class="icon">🏥</span>Know the signs of labor — timing contractions</li>
+                <li><span class="icon">📞</span>Keep your doctor's emergency number handy</li>
+                <li><span class="icon">🧘</span>Stay calm and rest as much as possible</li>
+                <li><span class="icon">❤️</span>Enjoy these final moments — you're about to be a mom!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Symptom Checker -->
+  <section class="section section-alt" id="symptoms">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Health Tracker</span>
+        <h2>Pregnancy Symptom Checker</h2>
+        <p>Select your trimester and check the symptoms you're experiencing to get personalized advice.</p>
+      </div>
+
+      <div class="symptom-checker reveal">
+        <div class="trimester-tabs">
+          <button class="trimester-tab active" data-trimester="1">1st Trimester</button>
+          <button class="trimester-tab" data-trimester="2">2nd Trimester</button>
+          <button class="trimester-tab" data-trimester="3">3rd Trimester</button>
+        </div>
+
+        <!-- Trimester 1 Symptoms -->
+        <div class="symptom-grid active" data-trimester="1">
+          <div class="symptom-item"
+            data-advice="Morning sickness is very common in the first trimester. Try eating small, bland meals and sipping ginger tea. If severe (hyperemesis gravidarum), consult your doctor.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🤢 Morning sickness / Nausea</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Extreme fatigue is your body's way of adjusting to pregnancy hormones. Rest when you can, maintain a regular sleep schedule, and eat iron-rich foods.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">😴 Extreme fatigue</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Breast tenderness is caused by rising hormone levels. Wear a supportive bra and avoid underwires. This usually eases by the second trimester.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🍼 Breast tenderness</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Frequent urination is normal as your uterus grows and presses on your bladder. Stay hydrated but reduce fluids before bedtime.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🚿 Frequent urination</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Mood swings are caused by hormonal fluctuations. Practice self-care, get light exercise, and talk to your partner about your feelings. Seek help if feelings of sadness persist.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">😊😢 Mood swings</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Food aversions and cravings are very common. Listen to your body but try to maintain balanced nutrition. Avoid raw or undercooked foods.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🍕 Food aversions / cravings</span>
+          </div>
+        </div>
+
+        <!-- Trimester 2 Symptoms -->
+        <div class="symptom-grid" data-trimester="2">
+          <div class="symptom-item"
+            data-advice="Back pain is common as your center of gravity shifts. Practice good posture, wear supportive shoes, and try prenatal yoga or gentle stretches.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🔙 Back pain</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Leg cramps often occur at night. Stretch your calves before bed, stay hydrated, and ensure adequate magnesium and calcium intake.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🦵 Leg cramps</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Heartburn is caused by your growing uterus pushing stomach acid upward. Eat smaller meals, avoid spicy foods, and don't lie down right after eating.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🔥 Heartburn / Indigestion</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Nasal congestion during pregnancy (rhinitis of pregnancy) is caused by increased blood flow. Use a humidifier, saline drops, and elevate your head while sleeping.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🤧 Nasal congestion</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Slight ankle and foot swelling is normal. Elevate your feet when resting, avoid standing for long periods, and stay hydrated. Sudden severe swelling warrants a doctor visit.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🦶 Swollen ankles</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Occasional dizziness can be caused by blood pressure changes. Stand up slowly, stay hydrated, and eat regular meals. If dizziness is frequent or severe, consult your doctor.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">😵 Dizziness</span>
+          </div>
+        </div>
+
+        <!-- Trimester 3 Symptoms -->
+        <div class="symptom-grid" data-trimester="3">
+          <div class="symptom-item"
+            data-advice="Braxton Hicks are your body's rehearsal for labor. They're irregular and usually painless. If contractions become regular and painful, contact your doctor — it may be real labor.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🤲 Braxton Hicks contractions</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Shortness of breath occurs as your uterus pushes against your diaphragm. This improves when baby 'drops' closer to delivery. Practice deep breathing exercises.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🫁 Shortness of breath</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Insomnia in the third trimester is very common. Try using a pregnancy pillow, maintain a bedtime routine, avoid screens before bed, and practice relaxation techniques.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">😴 Insomnia</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Pelvic pressure increases as baby's head engages into the pelvis. Use a maternity support belt, avoid heavy lifting, and take warm baths for relief.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">⬇️ Pelvic pressure</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="The nesting instinct is an urge to prepare your home for baby. Channel this energy but avoid overdoing it — don't lift heavy objects or use harsh chemicals.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🧹 Nesting instinct</span>
+          </div>
+          <div class="symptom-item"
+            data-advice="Increased frequency and urgency of urination happens as baby's head presses on your bladder. Continue drinking water; dehydration can trigger contractions.">
+            <div class="symptom-check">✓</div>
+            <span class="symptom-label">🚽 Very frequent urination</span>
+          </div>
+        </div>
+
+        <div class="symptom-advice" id="symptomAdvice">
+          <h4>💚 Personalized Advice</h4>
+          <p id="symptomAdviceText"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nutrition Guide -->
+  <section class="section" id="nutrition">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Eat Well</span>
+        <h2>Pregnancy Nutrition Guide</h2>
+        <p>Essential nutrients for a healthy pregnancy — nourish yourself and your growing baby with the right foods.
+        </p>
+      </div>
+
+      <div class="nutrition-grid reveal">
+        <div class="nutrition-card">
+          <div class="nutrition-icon">🥬</div>
+          <h4>Folic Acid</h4>
+          <p>Critical for neural tube development. Take 400-800mcg daily, especially in the first trimester.</p>
+          <div class="nutrition-foods">
+            <span class="food-tag">Spinach</span>
+            <span class="food-tag">Lentils</span>
+            <span class="food-tag">Asparagus</span>
+            <span class="food-tag">Broccoli</span>
+          </div>
+        </div>
+        <div class="nutrition-card">
+          <div class="nutrition-icon">🥩</div>
+          <h4>Iron</h4>
+          <p>Supports increased blood volume and prevents anemia. Need 27mg/day during pregnancy.</p>
+          <div class="nutrition-foods">
+            <span class="food-tag">Red meat</span>
+            <span class="food-tag">Beans</span>
+            <span class="food-tag">Tofu</span>
+            <span class="food-tag">Fortified cereal</span>
+          </div>
+        </div>
+        <div class="nutrition-card">
+          <div class="nutrition-icon">🥛</div>
+          <h4>Calcium</h4>
+          <p>Builds baby's bones and teeth. You need 1000mg/day to support both of you.</p>
+          <div class="nutrition-foods">
+            <span class="food-tag">Yogurt</span>
+            <span class="food-tag">Cheese</span>
+            <span class="food-tag">Almonds</span>
+            <span class="food-tag">Kale</span>
+          </div>
+        </div>
+        <div class="nutrition-card">
+          <div class="nutrition-icon">🐟</div>
+          <h4>Omega-3 (DHA)</h4>
+          <p>Essential for baby's brain and eye development. Aim for 200-300mg of DHA daily.</p>
+          <div class="nutrition-foods">
+            <span class="food-tag">Salmon</span>
+            <span class="food-tag">Walnuts</span>
+            <span class="food-tag">Chia seeds</span>
+            <span class="food-tag">Sardines</span>
+          </div>
+        </div>
+        <div class="nutrition-card">
+          <div class="nutrition-icon">🍊</div>
+          <h4>Vitamin C</h4>
+          <p>Boosts immunity and aids iron absorption. Need 85mg daily during pregnancy.</p>
+          <div class="nutrition-foods">
+            <span class="food-tag">Oranges</span>
+            <span class="food-tag">Strawberries</span>
+            <span class="food-tag">Bell peppers</span>
+            <span class="food-tag">Tomatoes</span>
+          </div>
+        </div>
+        <div class="nutrition-card">
+          <div class="nutrition-icon">🥚</div>
+          <h4>Protein</h4>
+          <p>Supports baby's tissue growth. Aim for 70-100g of protein daily through balanced sources.</p>
+          <div class="nutrition-foods">
+            <span class="food-tag">Eggs</span>
+            <span class="food-tag">Chicken</span>
+            <span class="food-tag">Greek yogurt</span>
+            <span class="food-tag">Quinoa</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency Contacts -->
+  <section class="section section-alt" id="emergency">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Stay Safe</span>
+        <h2>Emergency Contacts & Resources</h2>
+        <p>Keep these important numbers handy. Don't hesitate to reach out when you need help.</p>
+      </div>
+
+      <div class="emergency-grid reveal">
+        <div class="emergency-card urgent">
+          <div class="emergency-icon">🚨</div>
+          <h4>Medical Emergency</h4>
+          <p>For any life-threatening situation during pregnancy</p>
+          <div class="emergency-number">911</div>
+        </div>
+        <div class="emergency-card urgent">
+          <div class="emergency-icon">🏥</div>
+          <h4>Labor & Delivery</h4>
+          <p>Contact your hospital's maternity ward directly</p>
+          <div class="emergency-number">Your OB's #</div>
+        </div>
+        <div class="emergency-card urgent">
+          <div class="emergency-icon">📞</div>
+          <h4>Pregnancy Helpline</h4>
+          <p>24/7 support for pregnancy-related questions</p>
+          <div class="emergency-number">1-800-672-2296</div>
+        </div>
+        <div class="emergency-card">
+          <div class="emergency-icon">💊</div>
+          <h4>Poison Control</h4>
+          <p>Accidental exposure to harmful substances</p>
+          <div class="emergency-number">1-800-222-1222</div>
+        </div>
+        <div class="emergency-card">
+          <div class="emergency-icon">💙</div>
+          <h4>Postpartum Support</h4>
+          <p>Mental health support for new and expecting mothers</p>
+          <div class="emergency-number">1-800-944-4773</div>
+        </div>
+        <div class="emergency-card">
+          <div class="emergency-icon">🤱</div>
+          <h4>Breastfeeding Help</h4>
+          <p>La Leche League International support line</p>
+          <div class="emergency-number">1-877-452-5324</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Stories</span>
+        <h2>What Mothers Say</h2>
+        <p>Real stories from real moms who used BloomMama throughout their pregnancy journey.</p>
+      </div>
+
+      <div class="testimonials-slider reveal">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <div class="testimonial-card">
+            <div class="testimonial-inner">
+              <p class="testimonial-text">BloomMama was my go-to companion throughout my entire pregnancy. The
+                month-by-month guide kept me informed about every change, and the symptom checker gave me peace of mind
+                when I was worried about new symptoms.</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👩</div>
+                <div class="testimonial-name">
+                  <strong>Sarah Mitchell</strong>
+                  <span>First-time mom, Baby born March 2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-inner">
+              <p class="testimonial-text">As a second-time mom, I thought I knew everything. But BloomMama's nutrition
+                guide and trimester-specific tips taught me so much more! The emergency contacts section was a lifesaver
+                during a late-night scare.</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👩‍🦱</div>
+                <div class="testimonial-name">
+                  <strong>Priya Sharma</strong>
+                  <span>Mom of two, Baby born January 2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-inner">
+              <p class="testimonial-text">I loved the interactive timeline — it made the 9-month journey feel like an
+                adventure rather than an overwhelming experience. The tips for each month were practical and reassuring.
+                Truly a digital best friend!</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👩‍🦰</div>
+                <div class="testimonial-name">
+                  <strong>Emily Chen</strong>
+                  <span>First-time mom, Due April 2026</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-inner">
+              <p class="testimonial-text">My partner and I explored BloomMama together every month. It helped him
+                understand what I was going through and how he could support me. The FAQ section answered all our
+                anxious questions!</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👩‍💼</div>
+                <div class="testimonial-name">
+                  <strong>Amara Okonkwo</strong>
+                  <span>Mom & Partner, Baby born Nov 2025</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-dots" id="testimonialDots">
+          <button class="testimonial-dot active" data-index="0"></button>
+          <button class="testimonial-dot" data-index="1"></button>
+          <button class="testimonial-dot" data-index="2"></button>
+          <button class="testimonial-dot" data-index="3"></button>
+        </div>
+        <div class="testimonial-arrows">
+          <button class="testimonial-arrow" id="prevTestimonial" aria-label="Previous testimonial">←</button>
+          <button class="testimonial-arrow" id="nextTestimonial" aria-label="Next testimonial">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Questions</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Common questions from expectant mothers — answered by healthcare professionals.</p>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-question">
+            How often should I visit my doctor during pregnancy?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Typically, prenatal visits are scheduled every 4 weeks until week 28, every 2 weeks from weeks 28-36, and
+              weekly from week 36 until delivery. High-risk pregnancies may require more frequent visits. Always follow
+              your healthcare provider's specific recommendations for your situation.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Is it safe to exercise during pregnancy?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Most forms of moderate exercise are safe and recommended during pregnancy. Walking, swimming,
+              prenatal yoga, and light strength training are excellent choices. Avoid contact sports, hot yoga, and
+              exercises that involve lying flat on your back after the first trimester. Always consult your doctor
+              before starting any exercise routine.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            What foods should I avoid during pregnancy?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Avoid raw or undercooked meat, fish, and eggs; unpasteurized dairy and juices; high-mercury fish (shark,
+              swordfish, king mackerel); deli meats (unless heated); raw sprouts; and excess caffeine (limit to
+              200mg/day). Also avoid alcohol completely throughout pregnancy.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            When should I be concerned about bleeding during pregnancy?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Light spotting can be normal in early pregnancy (implantation bleeding), but you should contact your
+              doctor about any bleeding. Heavy bleeding, bleeding with pain or cramping, or bleeding in the second or
+              third trimester requires immediate medical attention. Never hesitate to call — it's always better to be
+              safe.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            How can I manage morning sickness effectively?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Try eating small, frequent meals; keeping crackers by your bed to eat before rising; sipping ginger tea
+              or ginger ale; avoiding strong smells; eating cold foods (which have less odor); trying vitamin B6
+              supplements; and staying well hydrated. If you can't keep any food or liquids down, contact your doctor as
+              you may need medication.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            What are the signs that I should go to the hospital during labor?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Head to the hospital when contractions are 5 minutes apart, lasting 1 minute each, for at least 1 hour
+              (the 5-1-1 rule). Also go immediately if your water breaks, you experience heavy bleeding, have severe
+              headaches or vision changes, or feel decreased baby movement. When in doubt, call your doctor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Newsletter -->
+  <section class="section cta-section" id="cta">
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2>Start Your Personalized Journey</h2>
+        <p>Enter your details to get personalized pregnancy guidance, weekly tips, and milestone reminders.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="text" placeholder="Enter your name" required aria-label="Your name">
+          <input type="date" placeholder="Your due date" required aria-label="Due date">
+          <input type="email" placeholder="Enter your email address" required aria-label="Email address">
+          <button type="submit">Get Started</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>🌸 BloomMama</h3>
+          <p>Your trusted digital companion throughout the beautiful journey of pregnancy. Expert-backed guidance,
+            personalized care, and endless support.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#journey">Monthly Guide</a></li>
+            <li><a href="#symptoms">Symptom Checker</a></li>
+            <li><a href="#nutrition">Nutrition Guide</a></li>
+            <li><a href="#emergency">Emergency Contacts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#">Birth Plan Template</a></li>
+            <li><a href="#">Hospital Bag Checklist</a></li>
+            <li><a href="#">Prenatal Exercise Guide</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Medical Disclaimer</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 BloomMama. All rights reserved. <em>This content is for informational purposes only and not a
+            substitute for professional medical advice.</em></p>
+        <p>Made with ❤️ for expectant mothers everywhere</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AI Chatbot -->
+  <div class="chatbot" id="chatbot">
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <div class="chat-avatar">🌸</div>
+        <div>
+          <h4>BloomMama AI</h4>
+          <span class="chat-status">● Online — Ask me anything!</span>
+        </div>
+      </div>
+      <button class="chat-minimize" id="chatMinimize" aria-label="Minimize chat">—</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-msg bot">
+        <div class="chat-msg-avatar">🌸</div>
+        <div class="chat-msg-bubble">
+          <p>Hi there! 👋 I'm your BloomMama AI assistant. Ask me anything about pregnancy — nutrition, symptoms,
+            exercise, baby development, and more!</p>
+        </div>
+      </div>
+    </div>
+    <div class="chat-suggestions" id="chatSuggestions">
+      <button class="chat-suggestion" data-q="What should I eat during pregnancy?">🥗 Nutrition tips</button>
+      <button class="chat-suggestion" data-q="Is morning sickness normal?">🤢 Morning sickness</button>
+      <button class="chat-suggestion" data-q="What exercises are safe during pregnancy?">🧘 Safe exercises</button>
+      <button class="chat-suggestion" data-q="When should I go to the hospital?">🏥 When to go to hospital</button>
+    </div>
+    <form class="chat-input" id="chatForm">
+      <input type="text" id="chatInput" placeholder="Type your question..." autocomplete="off"
+        aria-label="Chat message">
+      <button type="submit" aria-label="Send message">➤</button>
+    </form>
+  </div>
+  <button class="chat-toggle" id="chatToggle" aria-label="Open chat">
+    <span class="chat-toggle-icon">💬</span>
+    <span class="chat-toggle-close">✕</span>
+  </button>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
