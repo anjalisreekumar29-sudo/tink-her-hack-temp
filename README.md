@@ -77,43 +77,28 @@ open index.html
 
 ### For Software:
 
-#### Screenshots (Add at least 3)
+#### Screenshots 
 
-![Screenshot1]<img width="1906" height="931" alt="Image" src="https://github.com/user-attachments/assets/b71bbb52-ffc9-4c85-a4ab-a6221fc3672f" />
-*Add caption explaining what this shows*
 
 ![Screenshot2]<img width="1906" height="931" alt="Image" src="https://github.com/user-attachments/assets/62ffe2f6-1b8b-47b3-9414-895ddeac532f" />
 
-*Add caption explaining what this shows*
+
 
 ![Screenshot3]<img width="1899" height="902" alt="Image" src="https://github.com/user-attachments/assets/ae56be83-0db9-4642-808b-d71b80e8c539" />
-*Add caption explaining what this shows*
+
 
 ![Screenshot4]<img width="1901" height="901" alt="Image" src="https://github.com/user-attachments/assets/963cc95f-369e-4593-9bfc-cfc24d8050f6" />
-*Add caption explaining what this shows*
+
 
 ![Screenshot5]<img width="1899" height="910" alt="Image" src="https://github.com/user-attachments/assets/bc83763b-29a5-4084-8935-dcef8d7d868a" />
-*Add caption explaining what this shows*
+
 
 ![Screenshot6]<img width="1902" height="912" alt="Image" src="https://github.com/user-attachments/assets/f90ccf9e-8801-463d-b2b2-c12111497108" />
-*Add caption explaining what this shows*
+
 
 ![Screenshot7]<img width="1900" height="893" alt="Image" src="https://github.com/user-attachments/assets/73ffed2c-4558-4310-9afa-aefa16fea9b3" />
-*Add caption explaining what this shows*
 
-#### Diagrams
 
-**System Architecture:**
-
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
-
----
 
 
 ## Additional Documentation
@@ -162,7 +147,7 @@ https://www.loom.com/share/c27d9bccafcc4e6e98b4ead539d6ecc4
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** Chatgpt,VS Code
+**Tool Used:** Chatgpt
 
 **Purpose:** 
 Used AI tools to generate UI layout ideas, feature planning, content suggestions, and code assistance for building the pregnancy care website.
